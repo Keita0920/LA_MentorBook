@@ -16,6 +16,10 @@
 		0BCEF22D28B6BB06003D79BD /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEF22C28B6BB06003D79BD /* MentorBookTests.swift */; };
 		0BCEF23728B6BB06003D79BD /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEF23628B6BB06003D79BD /* MentorBookUITests.swift */; };
 		0BCEF23928B6BB06003D79BD /* MentorBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEF23828B6BB06003D79BD /* MentorBookUITestsLaunchTests.swift */; };
+		0BCEF24928B6BC2D003D79BD /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BCEF24628B6BC2D003D79BD /* ryo.jpg */; };
+		0BCEF24A28B6BC2D003D79BD /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BCEF24728B6BC2D003D79BD /* nagata.jpg */; };
+		0BCEF24B28B6BC2D003D79BD /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BCEF24828B6BC2D003D79BD /* taithi.jpg */; };
+		0BCEF24D28B6BE98003D79BD /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEF24C28B6BE98003D79BD /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		0BCEF23228B6BB06003D79BD /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCEF23628B6BB06003D79BD /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		0BCEF23828B6BB06003D79BD /* MentorBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0BCEF24628B6BC2D003D79BD /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		0BCEF24728B6BC2D003D79BD /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		0BCEF24828B6BC2D003D79BD /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		0BCEF24C28B6BE98003D79BD /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,7 @@
 				0BCEF21E28B6BB06003D79BD /* Assets.xcassets */,
 				0BCEF22028B6BB06003D79BD /* LaunchScreen.storyboard */,
 				0BCEF22328B6BB06003D79BD /* Info.plist */,
+				0BCEF24C28B6BE98003D79BD /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -123,8 +132,19 @@
 			children = (
 				0BCEF23628B6BB06003D79BD /* MentorBookUITests.swift */,
 				0BCEF23828B6BB06003D79BD /* MentorBookUITestsLaunchTests.swift */,
+				0BCEF24528B6BC2D003D79BD /* images */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		0BCEF24528B6BC2D003D79BD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0BCEF24628B6BC2D003D79BD /* ryo.jpg */,
+				0BCEF24728B6BC2D003D79BD /* nagata.jpg */,
+				0BCEF24828B6BC2D003D79BD /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BCEF24B28B6BC2D003D79BD /* taithi.jpg in Resources */,
+				0BCEF24928B6BC2D003D79BD /* ryo.jpg in Resources */,
+				0BCEF24A28B6BC2D003D79BD /* nagata.jpg in Resources */,
 				0BCEF22228B6BB06003D79BD /* LaunchScreen.storyboard in Resources */,
 				0BCEF21F28B6BB06003D79BD /* Assets.xcassets in Resources */,
 				0BCEF21D28B6BB04003D79BD /* Main.storyboard in Resources */,
@@ -258,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BCEF24D28B6BE98003D79BD /* Mentor.swift in Sources */,
 				0BCEF21A28B6BB04003D79BD /* ViewController.swift in Sources */,
 				0BCEF21628B6BB04003D79BD /* AppDelegate.swift in Sources */,
 				0BCEF21828B6BB04003D79BD /* SceneDelegate.swift in Sources */,
